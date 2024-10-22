@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c0113;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fcfbf8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #2d0233;
+}
+
+button {
+    width: 100%;
+    background-color: #e98e07;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff8800;
+    color: rgb(70, 8, 95);
+}
+
+button:focus {
+    outline: none;
+}
+
+input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+#image-container {
+    display: flex; /* Usamos Flexbox */
+    justify-content: center; /* Centrar por defecto */
+    width: 100%;
+}
+
+#dynamic-image {
+    max-width: 100%; /* Hace que la imagen sea responsiva */
+    height: auto;
+}
+
+.left {
+    justify-content: flex-start; /* Alinear a la izquierda */
+}
+
+.center {
+    justify-content: center; /* Centrar */
+}
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }

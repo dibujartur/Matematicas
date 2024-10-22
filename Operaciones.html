@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+                <div id="image-container">
+            <img id="dynamic-image" src="assets/halloween.jpeg" alt="Imagen Dinámica">
+        </div>
+        <div id="Titulo">
+        <h1 class="creepster-regular">Matematicas de terror con papicho</h1>    
+        </div>
+        
+        <div class="form-group">
+            <label class="creepster-regular" for="Precio" >Precio:</label>
+            <input class="creepster-regular" type="text" id="txtPrecio" placeholder="Ingresa el costo">
+        </div>
+    
+        <div class="form-group">
+            <label class="creepster-regular" for="Porcentaje">Descuento:</label>
+            <input class="creepster-regular" type="text" id="txtPorcentaje" placeholder="Ingresa el porcentaje">
+        </div>
+    
+        <div class="form-group">
+            <label class="creepster-regular" for="operacion">Operación:</label>
+            <select  class="creepster-regular" id="operacion">
+                <option class="creepster-regular" value="Descuentos">Descuentos</option>
+                <option  class="creepster-regular" value="PreciosOriginales">Precios Originales</option>
+            </select>
+        </div>
+    
+        <button class="creepster-regular" id="calcularBtn" onclick="calcular()">Calcular</button>
+    
+        <div class="form-group">
+            <label class="creepster-regular" for="resultado">Resultado:</label>
+            <input class="creepster-regular" type="text" id="resultado" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+    </div>
+
+  
+    <script src="./06-miscodigos/01-porcentajes.js">
+    </script>
+</body>
+</html>
